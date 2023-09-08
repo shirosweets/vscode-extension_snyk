@@ -16,10 +16,10 @@ Snyk scans for the following types of issues:
 
 * [**Open Source Security**](https://snyk.io/product/open-source-security-management/) - security vulnerabilities and license issues in both direct and in-direct (transitive) open-source dependencies pulled into the Snyk Project.\
   See also the [Open Source docs](https://docs.snyk.io/products/snyk-open-source).
-* [**Code Security and Code Quality**](https://snyk.io/product/snyk-code/) - security vulnerabilities and quality issues in your own code. See also the [Snyk Code](../../../scan-application-code/snyk-code/) docs.
+* [**Code Security** ](https://snyk.io/product/snyk-code/)- security vulnerabilities in your own code. See also the [Snyk Code](../../../scan-application-code/snyk-code/) docs.
 * [**Infrastructure as Code (IaC) Security**](https://snyk.io/product/infrastructure-as-code-security/) - configuration issues in your IaC templates: Terraform, Kubernetes, CloudFormation, and Azure Resource Manager. See also the [IaC](https://docs.snyk.io/products/snyk-infrastructure-as-code) and [Snyk Cloud](https://docs.snyk.io/products/snyk-cloud) docs.
 
-This page explains installation of the Visual Studio Code extension. **After you complete the steps on this page**, you will continue by following the instructions in the other Visual studio Code extension docs:
+This page explains the installation of the Visual Studio Code extension. **After you complete the steps on this page**, you will continue by following the instructions in the other Visual studio Code extension docs:
 
 * [Visual Studio Code extension configuration](https://docs.snyk.io/ide-tools/visual-studio-code-extension-for-snyk-code/visual-studio-code-extension-configuration)
 * [Visual Studio Code extension authentication](https://docs.snyk.io/ide-tools/visual-studio-code-extension-for-snyk-code/visual-studio-code-extension-authentication)
@@ -53,7 +53,7 @@ Follow these steps to install:
 * Navigate to the [Snyk Extension on the Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=snyk-security.snyk-vulnerability-scanner) and click **Install**.\
   For more information see the [installation instructions](https://code.visualstudio.com/docs/editor/extension-marketplace#\_install-an-extension).
 * Configure the Snyk CLI (downloaded when the extension in installed); see [Visual Studio Code extension configuration](https://docs.snyk.io/ide-tools/visual-studio-code-extension-for-snyk-code/visual-studio-code-extension-configuration).
-* Authenticate with Snyk; see [Visual Studio Code extension authentication](https://docs.snyk.io/ide-tools/visual-studio-code-extension-for-snyk-code/visual-studio-code-extension-authentication).
+* Authenticate with Snyk; see [Visual Studio Code extension authentication](visual-studio-code-extension-authentication.md). For additional information, including how to authenticate using your API token, see [Authenticate the CLI with your account](../../../snyk-cli/authenticate-the-cli-with-your-account.md).
 * Navigate back to the IDE; the first scan starts automatically.
 
 ## Support
